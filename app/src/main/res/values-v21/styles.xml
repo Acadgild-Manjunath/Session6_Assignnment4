@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                <!-- Customize your theme here. -->
+                <item name="android:colorAccent">@color/orange</item>
+                <item name="actionBarTheme">@style/dialog1</item>
+
+        </style>
+
+        <style name="dialog1" parent="Base.TextAppearance.AppCompat.Title.Inverse">
+                <item name="android:actionBarItemBackground">@color/colorPrimary</item>
+                <item name="android:background">@color/orange</item>
+                <item name="android:textColor">@color/black</item>
+
+
+
+        </style>
+
+</resources>
+

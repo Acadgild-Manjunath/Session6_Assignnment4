@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acadgild.com.session6_assignnment4.ImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Fragment"
+        android:textColor="@color/black"
+        android:background="@color/blue"
+        android:id="@+id/txtImageFragment1"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/and1"
+        android:layout_below="@+id/txtImageFragment1"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>

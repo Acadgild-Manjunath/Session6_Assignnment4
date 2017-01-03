@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.acadgild.com.session6_assignnment4.VideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:id="@+id/txtVideoFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Fragment"
+        android:background="@color/blue"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/txtVideoFragment1" />
+
+</RelativeLayout>
